@@ -5,8 +5,10 @@ class CreateOwners < ActiveRecord::Migration[5.2]
       t.string :city
       t.string :state
       t.string :email
+      t.string :uid
+      t.string :about
       t.string :password_digest
-      
+
       t.timestamps
     end
   end
